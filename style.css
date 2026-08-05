@@ -26,7 +26,7 @@
 body {
     background-color: var(--colour-2);
     color: var(--colour-1);
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     line-height: 1.5;
     padding: 1rem;
     display: flex;
