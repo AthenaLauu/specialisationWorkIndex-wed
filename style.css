@@ -61,6 +61,57 @@ main {
     align-items: center;
 }
 
+section{
+    max-width: 80rch;
+}
+
+.firstSectionHeading {
+    margin-top: 0;
+}
+
+.secondSectionHeading {
+    margin-top: 8rch;
+}
+.characterisation-title {
+    margin-top: 3rem;
+}
+
+/* Small Heading */
+h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+h5 {
+    text-align: center;
+    color: gray;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.project-lists {
+    display: flex;
+    gap: 5rem;
+    align-items: flex-start;
+    margin-top: 5rch;
+    margin-bottom: 7rch;
+}
+
+.include-list,
+.exclude-list {
+    flex: 1;
+}
+
+.example{
+    margin-top: 3rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+    /*margin-top: 0.5rem;*/
+    /*line-height: 1.8;*/
+}
+
 aside {
     visibility: hidden;
     flex: 1;
