@@ -80,9 +80,10 @@ section{
 /* Small Heading */
 h4 {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 1000;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
+
 }
 h5 {
     text-align: center;

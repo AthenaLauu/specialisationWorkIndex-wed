@@ -1,47 +1,541 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <meta charset="UTF-8">
+    <!-- !!!!! -->
+    <!--    change this to refer to your specific page  -->
+    <title>Assignment2</title>
 
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no,
-          initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- !!!!! -->
+    <!--  change this to your preferred icon  -->
+    <!-- favicon was sourced from favicon.io but the original graphics are copyright 2020 Twitter, Inc
+    and other contributors -->
+    <!-- They are licensed under CC-BY 4.0 as linked below -->
+    <!-- https://creativecommons.org/licenses/by/4.0/ -->
+    <link rel="icon" type="image/png" href="./assets/icons/icon.png">
 
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 
-        <title>Spatial Input Prototype</title>
-
-        <!-- load Tone.js -->
-        <script src="https://unpkg.com/tone@14.7.77/build/Tone.js"></script>
-
-        <!-- load spatial controller -->
-        <script src="spatialControllerFunctions.js" defer></script>
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="style.css">
+    <style>
+        a:link { color: #2799d7;}
+        a:visited { color: #b56b75;}
+    </style>
 
 </head>
 <body>
-<section>
 
-    <h2>Spatial Input Demos</h2>
+<header>
+    <!-- !!!!! -->
+    <!--    change this to your preferred online name  -->
+    <h1>Parallel Prototypes</h1>
+</header>
 
-    <div id="xyPad">
+<div class="mainNavContainer">
 
-        <div class="music-line"></div>
-        <div class="music-line"></div>
-        <div class="music-line"></div>
-        <div class="music-line"></div>
-        <div class="music-line"></div>
+    <nav>
+        <a href="./index.html">Home Page</a>
+        <a href="assignment1.html">Assignment 1</a>
+        <a href="https://au.miro.com/app/board/u3jVOf5_-Ik=/?share_link_id=696868747319">
+            Miro Board </a>
+    </nav>
 
-        <div id="xyPosMarker">🐱</div>
+    <main>
+        <section id="scenario-section">
+            <h3 class="firstSectionHeading">Area 1 — Spatial Interaction</h3>
 
-    </div>
+            <p>
+                My first area of exploration is Spatial Interaction, as movement and position are important parts of how
+                children interact with the musical toy. Since the project is designed for young children with minimal reading skills,
+                I am interested in how space itself can be used to guide interaction without relying on written instructions or musical
+                knowledge.
 
-    <p>X: <span id="xPosOutput">0</span></p>
-    <p>Y: <span id="yPosOutput">0</span></p>
+            </p>
 
-</section>
+            <p>
+                For this area, I am particularly interested in the balance between structure and freedom.
+                Too much structure may limit exploration, while a more open space may create more opportunities for children to
+                experiment and discover unexpected sounds. This relates to the project's focus on curiosity, and how spatial interaction
+                can encourage children to learn through moving, trying and discovering.
+
+            </p>
+
+
+            <a href="https://athena-idd-feedback-scaleup.github.io/IDD_Assessment2/assignment2.html">
+                <h4>1.1 Five Lines Music player</h4></a>
+            <p>
+                The five-line design is the original interaction concept for the project. It uses a familiar and structured arrangement
+                inspired by musical lines, but simplifies the interaction so children do not need to understand traditional musical notation.
+
+            </p>
+            <details>
+                <summary>Commit Logs</summary>
+                <table>
+                    <thead><tr>
+
+                        <th>Author</th>
+                        <th>Date</th>
+                        <th>Subject</th>
+                        <th>Body</th>
+
+                    </tr></thead>
+
+                    <tbody>
+
+                    <tr>
+
+                        <td>533b496</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-21</td>
+                        <td>Initial commit</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>2fdf156</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-21</td>
+                        <td>Copied the first prototype</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>574bbac</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-22</td>
+                        <td>Add five animals with play and redo buttons</td>
+
+                    </tr>
+                    </tbody>
+                </table>
+            </details>
+
+
+            <a href="https://athena-idd-feedback-notechange.github.io/IDD_Assessment2/assignment2.html">
+                <h4>1.2 Colour Sound Zones</h4> </a>
+            <p>
+                The idea of Colour Sound Zones is to connect children’s curiosity with sound exploration. Inspired by colourful children’s xylophones,
+                where different colours represent different notes, this prototype replaces the fixed music lines with coloured sound areas. Children can
+                freely move animals between these areas to discover different sounds, creating a more open and exploratory spatial interaction without
+                relying on traditional musical notation.
+
+            </p>
+            <details>
+                <summary>Commit Logs</summary>
+                <table>
+
+                    <thead><tr>
+
+                        <th>Author</th>
+                        <th>Date</th>
+                        <th>Subject</th>
+                        <th>Body</th>
+
+                    </tr></thead>
+
+                    <tbody>
+
+                    <tr>
+
+                        <td>533b496</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-21</td>
+                        <td>Initial commit</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>2fdf156</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-21</td>
+                        <td>Copied the first prototype</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>574bbac</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-22</td>
+                        <td>Add five animals with play and redo buttons</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>9d39ecc</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-23</td>
+                        <td>Add scale-up feedback when animals play</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>190642d</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-23</td>
+                        <td>Add colour sound zones</td>
+
+                    </tr>
+
+                    </tbody>
+
+                </table>
+            </details>
+
+            <a href="https://athena-idd-feedback-overlap.github.io/IDD_Assessment2/assignment2.html">
+                <h4>1.3 Sound Zones Random</h4> </a>
+            <p>
+                The idea of Random Sound Zones extends the previous Colour Sound Zones prototype by making the interaction more playful and unpredictable.
+                Since the previous prototypes use fixed layouts, I introduced randomisation so that each refresh creates a new arrangement of sound zones.
+                This gives children a different space to explore each time, encouraging them to experiment with new positions and discover different sound combinations.
+
+            </p>
+
+                <details>
+                    <summary>Commit Logs</summary>
+                    <table>
+
+                        <thead><tr>
+
+                            <th>Author</th>
+                            <th>Date</th>
+                            <th>Subject</th>
+                            <th>Body</th>
+
+                        </tr></thead>
+
+                        <tbody>
+
+                        <tr>
+
+                            <td>533b496</td>
+                            <td>AthenaLauu</td>
+                            <td>2026-09-21</td>
+                            <td>Initial commit</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>2fdf156</td>
+                            <td>AthenaLauu</td>
+                            <td>2026-09-21</td>
+                            <td>Copied the first prototype</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>574bbac</td>
+                            <td>AthenaLauu</td>
+                            <td>2026-09-22</td>
+                            <td>Add five animals with play and redo buttons</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>9d39ecc</td>
+                            <td>AthenaLauu</td>
+                            <td>2026-09-23</td>
+                            <td>Add scale-up feedback when animals play</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>190642d</td>
+                            <td>AthenaLauu</td>
+                            <td>2026-09-23</td>
+                            <td>Add colour sound zones</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>beb7090</td>
+                            <td>AthenaLauu</td>
+                            <td>2026-09-23</td>
+                            <td>Added radom color function</td>
+
+                        </tr>
+
+                        </tbody>
+
+                    </table>
+                </details>
+
+
+        <section id="scenario-section">
+            <h3 class="secondSectionHeading">Area 2 - Feedback</h3>
+
+
+            <p>
+                My second area of exploration is Feedback, as it can shape how children experience and respond to the musical toy. For young children,
+                the response they receive from an interaction can become part of the play itself, rather than simply confirming that an action has worked.
+                I am interested in exploring how feedback can make each interaction feel more rewarding and encourage children to continue experimenting.
+                A more responsive experience may create a stronger sense of involvement, where children become interested in seeing and hearing what happens next.
+                This makes feedback important not only for usability, but also for creating a playful experience that can hold their attention over time.
+
+            </p>
+
+
+
+
+            <a href="https://athena-idd-fivelines.github.io/IDD_Assessment2/assignment2.html">
+                <h4>2.1 Five-line Scaleup</h4></a>
+            <p>
+                While developing the interaction, I noticed that sound alone didn't clearly indicate which animal was playing,
+                making it hard to follow the sequence. To clarify this connection, this prototype introduces a scale-up animation when each animal plays.
+                The movement draws attention to the active animal and creates a clearer connection between the visual and sound. It also adds more visual
+                activity to the playback, making the experience feel more responsive and playful.
+
+            </p>
+            <details>
+                <summary>Commit Logs</summary>
+                <table>
+
+                    <thead><tr>
+
+                        <th>Author</th>
+                        <th>Date</th>
+                        <th>Subject</th>
+                        <th>Body</th>
+
+                    </tr></thead>
+
+                    <tbody>
+
+                    <tr>
+
+                        <td>533b496</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-21</td>
+                        <td>Initial commit</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>2fdf156</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-21</td>
+                        <td>Copied the first prototype</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>574bbac</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-22</td>
+                        <td>Add five animals with play and redo buttons</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>9d39ecc</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-23</td>
+                        <td>Add scale-up feedback when animals play</td>
+
+                    </tr>
+                    </tbody>
+                </table>
+            </details>
+
+
+            <a href="https://athena-idd-soundzones.github.io/IDD_Assessment2/assignment2.html">
+                <h4>2.2 Note Range Feedback</h4></a>
+            <p>
+                While developing the project, I wanted to give children more musical choices, as the fixed note range limited
+                the variety of melodies they could create. I added a button to switch between higher and lower notes, allowing
+                children to explore how pitch can change the sound of the same arrangement. This also introduces a simple musical concept through playful interaction.
+
+            </p>
+            <details>
+                <summary>Commit Logs</summary>
+                <table>
+                <thead><tr>
+
+                    <th>Author</th>
+                    <th>Date</th>
+                    <th>Subject</th>
+                    <th>Body</th>
+
+                </tr></thead>
+
+                <tbody>
+
+                <tr>
+
+                    <td>533b496</td>
+                    <td>AthenaLauu</td>
+                    <td>2026-09-21</td>
+                    <td>Initial commit</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>2fdf156</td>
+                    <td>AthenaLauu</td>
+                    <td>2026-09-21</td>
+                    <td>Copied the first prototype</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>574bbac</td>
+                    <td>AthenaLauu</td>
+                    <td>2026-09-22</td>
+                    <td>Add five animals with play and redo buttons</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>9d39ecc</td>
+                    <td>AthenaLauu</td>
+                    <td>2026-09-23</td>
+                    <td>Add scale-up feedback when animals play</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>2b1a0fe</td>
+                    <td>AthenaLauu</td>
+                    <td>2026-09-26</td>
+                    <td>Add note change prototype</td>
+
+                </tr>
+                </tbody>
+                </table>
+            </details>
+
+
+            <a href="https://athena-idd-soundzonesrandom.github.io/IDD_Assessment2/assignment2.html">
+                <h4>2.3 Overlap Feedback</h4></a>
+            <p>
+                For this prototype, I focused on how feedback could encourage children’s curiosity. I explored whether the
+                random overlapping colour zones could create unexpected and playful responses. Since animals are already the
+                main characters of the interaction, I decided to use animal sounds as feedback when overlap occurs, creating a
+                small surprise for children to discover through exploration.
+
+            </p>
+            <details>
+                <summary>Commit Logs</summary>
+                <table>
+                    <thead><tr>
+
+                        <th>Author</th>
+                        <th>Date</th>
+                        <th>Subject</th>
+                        <th>Body</th>
+
+                    </tr></thead>
+
+                    <tbody>
+
+                    <tr>
+
+                        <td>533b496</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-21</td>
+                        <td>Initial commit</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>2fdf156</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-21</td>
+                        <td>Copied the first prototype</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>574bbac</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-22</td>
+                        <td>Add five animals with play and redo buttons</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>9d39ecc</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-23</td>
+                        <td>Add scale-up feedback when animals play</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>190642d</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-23</td>
+                        <td>Add colour sound zones</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>beb7090</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-23</td>
+                        <td>Added radom color function</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>e77f12e</td>
+                        <td>AthenaLauu</td>
+                        <td>2026-09-26</td>
+                        <td>Fix animal layout,  add overlap sound feedback and refresh button</td>
+
+                    </tr>
+                    </tbody>
+                </table>
+            </details>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- this is an empty element which helps with spacing -->
+    <aside></aside>
+
+</div>
+
+<footer>
+    <p>
+        <!-- !!!!! -->
+        <!--    change this to your preferred online name and update link to refer to your github page  -->
+        Page maintained by:
+        <a href="https://github.com/AthenaLauu" target="_blank">
+            Athena Lau
+        </a>
+    </p>
+</footer>
 </body>
 </html>

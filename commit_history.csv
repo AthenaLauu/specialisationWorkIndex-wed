@@ -1,0 +1,19 @@
+AthenaLauu,Wed Sep 9 14:00:02 2026 +1000,added new,added Assignment2 project in
+
+AthenaLauu,Mon Aug 10 16:12:26 2026 +1000,Update homepage layout and content,Added homepage introduction, updated navigation links, and added an image for the work index.
+
+AthenaLauu,Mon Aug 10 15:00:24 2026 +1000,Assignment 1,Add project framing, UI analysis and styling for Assignment 1
+
+AthenaLauu,Wed Aug 5 15:52:27 2026 +1000,fixed a1 spacing,
+AthenaLauu,Fri Jul 24 00:01:13 2026 +1000,Week1,Updated the font style, revised the content, and updated the GitHub link.
+
+Patrick McMahon,Thu Jul 16 11:20:02 2026 +1000,fixed assignment links,removed id refs so we can add pages
+
+Patrick McMahon,Thu Jul 16 10:45:35 2026 +1000,change favicon and remove unnecessary sections,
+hase,Fri Jun 5 13:00:32 2026 +1000,moved to flex in flex,grid wasn't quite cutting it so i moved to a nested flex situation for the main section. now hopefully should all work as intended
+
+hase,Fri Jun 5 12:03:25 2026 +1000,more responsiveq,fixed grid issues of overflow. added a max width to text
+
+hase,Fri Jun 5 11:10:13 2026 +1000,responsiveness,added in grid template for the four areas to shift based on screen width
+
+hase,Fri Jun 5 09:14:59 2026 +1000,init,set up and linked basic files
