@@ -1,0 +1,73 @@
+/* Assignment 2 layout */
+
+/* Main title */
+header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+/* Area headings */
+.firstSectionHeading,
+.secondSectionHeading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.firstSectionHeading {
+    margin-top: 0;
+}
+
+.secondSectionHeading {
+    margin-top: 5rem;
+}
+
+/* Prototype titles */
+main h4 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Prototype title links */
+main a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+main a h4 {
+    color: var(--colour-1);
+}
+
+main a:hover h4 {
+    color: #2799d7;
+}
+
+/* Commit logs */
+details {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+summary {
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Commit log tables */
+table {
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+th,
+td {
+    padding: 0.7rem;
+    text-align: left;
+    border-bottom: 1px solid var(--colour-1);
+}
